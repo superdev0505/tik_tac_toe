@@ -1,0 +1,42 @@
+html,
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 100%;
+  background-color: #f9fafb;
+}
+
+.game-board {
+  font-family: "Open Sans", sans-serif;
+}
+
+.shadow-md {
+  box-shadow: rgba(7, 65, 210, 0.1) 0px 9px 30px !important;
+}
+
+.o-player {
+  background: #cb6893;
+  background: -webkit-linear-gradient(to right, #cb6893 0%, #f6d9d7 100%);
+  background: -moz-linear-gradient(to right, #cb6893 0%, #f6d9d7 100%);
+  background: linear-gradient(to right, #cb6893 0%, #f6d9d7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.x-player {
+  background: #746dd0;
+  background: -webkit-linear-gradient(to right, #746dd0 0%, #c4e1eb 100%);
+  background: -moz-linear-gradient(to right, #746dd0 0%, #c4e1eb 100%);
+  background: linear-gradient(to right, #746dd0 0%, #c4e1eb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.x-winner {
+  text-shadow: 0 0 10px #746dd0, 0 0 0px #746dd0, 0 0 40px #746dd0,
+    0 0 2px #746dd0;
+}
+
+.o-winner {
+  text-shadow: 0 0 10px #ff9bc6, 0 0 0px #ff9bc6, 0 0 40px #ff9bc6,
+    0 0 2px #ff9bc6;
+}
