@@ -165,6 +165,7 @@ export default function App() {
     if (winner) {
       setGameState(winner.winner);
       setWinSpaces(winner.winSpaces);
+      return;
     }
 
     // Run AI turn
